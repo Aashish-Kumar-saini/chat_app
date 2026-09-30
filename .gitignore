@@ -1,0 +1,99 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code local settings
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.flutter/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android build artifacts and local machine settings
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/local.properties
+/android/key.properties
+/android/.gradle/
+/android/captures/
+/android/.cxx/
+/android/.externalNativeBuild/
+*.jks
+*.keystore
+
+# iOS/Xcode local files and signing credentials
+**/xcuserdata/
+**/*.xcuserstate
+**/*.mobileprovision
+**/*.provisionprofile
+**/*.p12
+**/*.cer
+
+# Widget Preview related
+.widget_preview/
+
+# Firebase app config files (requested)
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.secret
+*.secret.*
+!.env.example.*
+
+# Google Cloud / Firebase credentials
+**/*service-account*.json
+**/*serviceAccount*.json
+**/*credentials*.json
+**/application_default_credentials.json
+
+# Firebase local state and debug logs
+.firebase/
+firebase-debug.log
+firestore-debug.log
+database-debug.log
+ui-debug.log
+functions-debug.log
+
+# Node dependencies and local files (e.g. Firebase Functions)
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ...existing code...

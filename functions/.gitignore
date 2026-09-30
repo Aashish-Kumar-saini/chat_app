@@ -1,0 +1,15 @@
+node_modules/
+*.local
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+**/*service-account*.json
+**/*serviceAccount*.json
+**/*credentials*.json
+**/application_default_credentials.json
+
+# Generated/debug files
+.firebase/
+*.log
